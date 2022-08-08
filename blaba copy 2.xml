@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Rental Mobil Motor Timika</title>
+
+    <!-- modules includes -->
+    <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.0.7/css/all.css"/>
+    <link rel="icon" type="image/png" href="https://blogger.googleusercontent.com/img/a/AVvXsEjmHlPZq7LwVS7de0NPOCjHgf17Sb6M0u-FjsoGsfD3yeW4Kq5ZdZSmGgfwZhkiScqRKmFzBqsZjHg_R7WzIIlcJAHz8LBg1Ndo0M9r-MMDie7P0iPObs96UNdhdkQwXRU7BwcCluWptAl6VNhnopLsVQYfK3BzOvTf0KwTSqVFEDdlS076z_eKrPqnkg"/>
+    <script src="https://kit.fontawesome.com/354c7d18ee.js" crossorigin="anonymous"></script>
+    <!-- <link rel="shortcut icon" href="images/M-117.svg" type="image/svg+xml"> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" charset="utf-8"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+    <b:skin>
+    <![CDATA[
+        .ngumpet {
+        display: none;
+    }
+    ]]>
+    </b:skin>
+</head>
+<body>
+    <div id="Header-area" class="ngumpet">
+        <header class="ngumpet">
+            <b:section class='header' id='header' maxwidgets='' showaddelement='no'>
+            <b:widget id='Header1' locked='true' title='This is header area' type='header'>
+            </b:widget>
+            </b:section>
+        </header>
+    </div>
+    <div id="main-content" class="ngumpet">
+        <div class="container">
+            <b:section class='main' id='main' maxwidgets='1' showaddelement='yes'>
+            <b:widget id='Blog1' locked='true' title='This is main content area' type='Blog'/>
+            </b:section>
+            <aside class='sidebar-area'>
+                <b:section class='sidebar' id='sidebar' maxwidgets='' showaddelement='yes'>
+                
+                </b:section>
+            </aside>
+        </div>
+    </div>
+    <footer>
+        <div class="ngumpet">
+            Copyright @ 2020 <strong><data:blog.title/></strong>
+        </div>
+    </footer>
+</body>
+
+</html>

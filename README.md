@@ -1,2 +1,0 @@
-# newtestrepo
-test ajalah

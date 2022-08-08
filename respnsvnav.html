@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Navbar</title>
+    <link rel="stylesheet" href="stile.css">
+</head>
+
+<body>
+    <nav>
+        <div class="logo">
+            <h4>Rental Mobil Motor Timika</h4>
+        </div>
+        <ul>
+            <li><a href="">TIPE ARMADA</a></li>
+            <li><a href="">TEMUKAN KAMI</a></li>
+            <li><a href="">puguhrentcar_timika</a></li>
+        </ul>
+        <div class="menu-toggle">
+            <input type="checkbox">
+            <span></span><span></span><span></span>
+        </div>
+    </nav>
+
+
+    
+    <script type="text/javascript">
+        const menuToggle = document.querySelector('.menu-toggle input');
+        const nav = document.querySelector('nav ul');
+
+        menuToggle.addEventListener('click', function() {
+            nav.classList.toggle('slide');
+        });
+    </script>
+</body>
+
+</html>

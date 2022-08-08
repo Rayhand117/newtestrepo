@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Testststst</title>
+    <b:skin>
+    <![CDATA[
+        .ngumpet {
+        display: none;
+    }
+    ]]>
+    /* Css start here */
+    /*
+    Blogger Template Style info:
+    Name:Ppq
+    version:1.9
+    author:John
+    Url:vian.117.bls@gmail.com
+    Licens:Free
+    */
+    </b:skin>
+</head>
+<body>
+    <div id="Header-area" class="ngumpet">
+        <header class="ngumpet">
+            <b:section class='header' id='header' maxwidgets='' showaddelement='no'>
+            <b:widget id='Header1' locked='true' title='This is header area' type='header'>
+            </b:widget>
+            </b:section>
+        </header>
+    </div>
+    <div id="main-content" class="ngumpet">
+        <div class="container">
+            <b:section class='main' id='main' maxwidgets='1' showaddelement='yes'>
+            <b:widget id='Blog1' locked='true' title='This is main content area' type='Blog'/>
+            </b:section>
+            <aside class='sidebar-area'>
+                <b:section class='sidebar' id='sidebar' maxwidgets='' showaddelement='yes'>
+                
+                </b:section>
+            </aside>
+        </div>
+    </div>
+    <footer>
+        <div class="ngumpet">
+            Copyright @ 2020 <strong><data:blog.title/></strong>
+        </div>
+    </footer>
+</body>
+
+</html>

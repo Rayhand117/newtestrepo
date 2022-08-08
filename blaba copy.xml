@@ -1,0 +1,1887 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Rental Mobil Motor Timika</title>
+
+    <!-- modules includes -->
+    <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.0.7/css/all.css"/>
+    <link rel="icon" type="image/png" href="https://blogger.googleusercontent.com/img/a/AVvXsEjmHlPZq7LwVS7de0NPOCjHgf17Sb6M0u-FjsoGsfD3yeW4Kq5ZdZSmGgfwZhkiScqRKmFzBqsZjHg_R7WzIIlcJAHz8LBg1Ndo0M9r-MMDie7P0iPObs96UNdhdkQwXRU7BwcCluWptAl6VNhnopLsVQYfK3BzOvTf0KwTSqVFEDdlS076z_eKrPqnkg"/>
+    <script src="https://kit.fontawesome.com/354c7d18ee.js" crossorigin="anonymous"></script>
+    <!-- <link rel="shortcut icon" href="images/M-117.svg" type="image/svg+xml"> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" charset="utf-8"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+    <b:skin>
+    <![CDATA[
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Questrial', sans-serif;
+    text-decoration: none;
+}
+
+html,
+body {
+    height: 100%;
+    max-width: 1500px;
+    margin: 0 auto;
+    background-color: #3A3845;
+    scroll-behavior: smooth;
+}
+header {
+    position: sticky;
+    top: 0;
+    z-index: 3;
+}
+
+.grid-item {
+    position: relative;
+    font-size: 25px;
+    padding: 20px 20px 0 20px;
+    background-color: #ffffff;
+    color: #222;
+}
+
+.grid-item23,
+.grid-item24 {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    position: relative;
+    font-size: 25px;
+    padding: 0 20px 20px 20px;
+    background-color: #3A3845;
+    color: rgb(255, 255, 255);
+    font-size: 1.3em;
+}
+.grid-item24 {
+    margin-top: 100px;
+}
+.grid-item23:nth-child(1),
+.grid-item24:nth-child(1) {
+    margin-top: 100px;
+}
+.grid-item23:nth-child(2),
+.grid-item24:nth-child(2) {
+    text-align: center;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    width: 50%;
+    justify-content: space-between;
+}
+nav ul li:nth-child(1n+5) {
+    display: none;
+}
+
+nav ul li a {
+    color: #F7CCAC;
+    text-decoration: none;
+    font: 0.8;
+}
+
+nav ul li a:hover {
+    color: rgb(250, 240, 255);
+}
+
+
+.menu-toggle {
+    display: none;
+    flex-direction: column;
+    height: 20px;
+    justify-content: space-between;
+    position: relative;
+}
+
+.menu-toggle input {
+    position: absolute;
+    width: 40px;
+    height: 28px;
+    left: -5px;
+    top: -3px;
+    opacity: 0;
+    cursor: pointer;
+    z-index: 2;
+}
+
+
+.menu-toggle span:nth-child(2) {
+    transform-origin: 0 0;
+}
+
+.menu-toggle span:last-child {
+    transform-origin: 0 100%;
+}
+
+.menu-toggle input:checked ~ span:nth-child(2) {
+    background-color: #3A3845;
+    transform: rotate(45deg) translate(-1px, -1px);
+}
+
+.menu-toggle input:checked ~ span:last-child {
+    background-color: #3A3845;
+    transform: rotate(-45deg) translate(-1px, 0);
+}
+
+.menu-toggle input:checked ~ span:nth-child(3) {
+    opacity: 0;
+    transform: scale(0);
+}
+
+
+.menu-toggle span {
+    display: block;
+    width: 28px;
+    height: 3px;
+    background-color: #F7CCAC;
+    border-radius: 3px;
+    transition: all 0.5s;
+}
+
+
+
+
+.GRID1 {
+    max-width: 1500px;
+    margin: 0 auto;
+    width: 100%;
+    background-color: rgb(255, 255, 255, 0.1);
+    color: #F7CCAC;
+    backdrop-filter: blur(8px);
+    position: fixed!important;
+    top: 0;
+    z-index: 10;
+    grid-area: header;
+    display: flex;
+    justify-content: space-around;
+    height: 75px;
+    align-items: center;
+    column-gap: 5em;
+    border-radius: 0 0 20px 20px;
+}
+
+.grid1-1 {
+    grid-area: harold;
+    color: rgb(0, 0, 0);
+}
+
+.grid1-1 p {
+    font-family: 'Kalam', cursive;
+    font-weight: 900;
+    font-size: clamp(0.9rem, 1vw + 0.87rem, 2.3rem);
+    color: #F7CCAC;
+}
+
+.GRID1 a {
+    font-size: clamp(0.9rem, 1vw + 0.87rem, 1.3rem);
+    color: #F7CCAC;
+}
+
+.grid1-2 {
+    grid-area: telp;
+    text-align: right;
+}
+
+.grid1-2 a {
+    font-size: 1em;
+    text-decoration: none;
+    color: #F7CCAC;
+}
+
+.grid1-3 {
+    grid-area: darurat;
+    text-align: center;
+    justify-content: end;
+    display: inline-grid;
+    grid-template-columns: 100%;
+}
+
+.grid1-3 a {
+    margin: auto;
+}
+
+.tombol,
+.beli {
+    display: block;
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+    font-size: 1.25rem;
+    background: rgba(227, 26, 26, 1);
+    border: none;
+    border-radius: 12px;
+    padding: 20px 0;
+    cursor: pointer;
+    text-decoration: none;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+.beli {
+    padding: 20px 50px;
+}
+
+.tombol:hover,
+.beli:hover {
+    background: #3B346E;
+    color: rgb(255, 255, 255);
+}
+
+.GRID2 {
+    grid-area: selamat;
+    margin-top: 100px;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 1fr 1fr auto auto auto 1fr;
+    gap: 0.4em;
+    background-image: url(images/harold4.png);
+    background-size: cover;
+    background-position: center;
+    grid-template-areas:
+        "navbar"
+        "kosong"
+        "cari"
+        "empty"
+        "fourth"
+        "fifth"
+        "sixth";
+}
+
+.grid2-1 {
+    grid-area: navbar;
+    text-align: center;
+    display: flex;
+    justify-content: end;
+    column-gap: 0.8em;
+    grid-template-columns: 100%;
+
+}
+.grid2-2r{
+    color: #222;
+}
+
+.grid2-1 a {
+    text-decoration: none;
+    color: #222;
+}
+
+.grid2-2,
+.grid2-2r {
+    grid-area: cari;
+    padding: 12px 16px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.grid2-2 a {
+    font-size: 2em;
+    text-decoration: none;
+    color: #222;
+    font-weight: 700;
+    text-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 1);
+}
+
+.grid2-3 {
+    grid-area: empty;
+}
+.grid2-4 {
+    grid-area: fourth;
+}
+.grid2-5 {
+    grid-area: fifth;
+}
+.gird2-3, .grid2-4, .grid2-5 {
+    padding: 12px 16px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.grid2-3 a, .grid2-4 a, .grid2-5 a {
+    font-size: 2em;
+    text-decoration: none;
+    color: #222;
+    font-weight: 700;
+    text-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 1);
+}
+.spasi {
+    opacity: 0;
+    position: absolute;
+}
+.GRID3 {
+    grid-area: daftar;
+    display: grid;
+    justify-content: center;
+    color: rgb(0, 0, 0);
+    margin-top: -50px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 0fr;
+    gap: 0.8em;
+    row-gap: 3em;
+    grid-template-areas:
+    "formulir formulir formulir"
+    "register register register"
+}
+.GRID3R {
+    gap: 0.8em;
+    row-gap: 0;
+}
+
+.grid3-1 {
+    grid-area: register;
+    display: inline-grid;
+}
+.grid3-1r {
+    grid-area: register;
+    text-align: left;
+    display: grid;
+    column-gap: 2em;
+    grid-template-columns: 100%;
+}
+.grid3-1 a {
+    font-size: clamp(1.5em, 3vw, 2.5em);
+    text-decoration: none;
+    font-weight: 550;
+    text-shadow: 3px 5px 6px #3A3845;
+    font-family: 'Kalam';
+    color: #F7CCAC;
+}
+
+.grid3-2 {
+    grid-area: formulir;
+    margin: 0 100px;
+    padding: 10px 0;
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    cursor: pointer;
+    background: #826F66;
+    backdrop-filter: blur(40px);
+    border-radius: 15px;
+}
+.grid3-2 a {
+    font-size: clamp(0.55em, 2vw, 1.5em);
+    text-decoration: none;
+    color: #F7CCAC;
+    font-weight: 550;
+    text-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 1);
+}
+
+.rltn {
+    margin: 0 auto;
+    display: block;
+    font-weight: 500;
+    border-radius: 15px;
+    padding: 12px 16px;
+    text-decoration: none;
+    color: #F7CCAC;
+}
+.rltn p{
+    color: #F7CCAC;
+}
+
+.rltn:hover {
+    background: #F7CCAC;
+    color: #3A3845;
+    text-shadow: 0px 4px 4px rgba(58, 56, 69, 0.5);
+}
+
+.namabesar {
+    padding: 1em 0 0 0;
+}
+
+.namakecil {
+    font-size: 0.6em;
+}
+
+.GRID4 {
+    grid-area: pagination;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 1fr;
+    grid-template-rows: 0fr;
+    gap: 0.8em;
+    grid-template-areas:
+        "conuts"
+}
+
+.grid4-1 {
+    grid-area: conuts;
+    text-align: center;
+    display: inline-grid;
+    grid-template-columns: 100%;
+}
+
+.grid4-1 h1 {
+    text-shadow: 3px 5px 6px #3A3845;
+    font-family: 'Kalam';
+    color: #F7CCAC;
+}
+
+.bi-star-fill {
+    color: #FFA928;
+}
+
+.bi-gender-female {
+    color: #df3f3f;
+}
+
+.bi-star-half {
+    color: #FFA928;
+}
+
+.fotoku {
+    margin: auto 0;
+    display: block;
+    max-width: 10px;
+}
+
+.fotokiri {
+    margin: auto 0;
+    display: block;
+    max-width: 60px;
+}
+
+.fotokiri2 {
+    margin: 0.8em auto;
+    display: block;
+    max-width: 60px;
+}
+
+.fotokanan {
+    margin: auto 0;
+    display: block;
+    max-width: 60px;
+}
+
+.fotokanan2 {
+    margin: 0.8em auto;
+    display: block;
+    max-width: 60px;
+}
+
+.coconuts {
+    width: 300px;
+}
+
+.footerfont {
+    text-align: justify;
+    font-size: 0.76em;
+}
+
+.GRID5 {
+    grid-area: berita;
+    padding-top: 2em;
+    background-color: #3A3845;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas:
+        "papoy"
+        "subroto";
+    gap: 0.3em 0.8em;
+    margin-bottom: -200px;
+}
+.GRID5:nth-child(2) {
+    margin-bottom: -230px;
+}
+
+.GRID5 a {
+    font-size: 0.8em;
+    color: rgba(34, 34, 34, 0.5);
+    text-decoration: none;
+}
+
+.grid5-1 {
+    display: inline-grid;
+    grid-area: papoy;
+    text-align: center;
+}
+
+.grid5-1 a {
+    font-size: clamp(1em, 2vw, 2em);
+    text-shadow: 3px 5px 6px #3A3845;
+    font-family: 'Questrial', sans-serif;
+    color: #F7CCAC;
+}
+
+.grid5-1 a:nth-child(2) {
+    font-size: 1em;
+}
+
+.grid5-2 {
+    grid-area: subroto;
+    padding-top: 2em;
+    justify-content: center;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 0.3em 0.8em;
+    text-align: center;
+    overflow: auto;
+    white-space: nowrap;
+    margin-bottom: 15px;
+}
+.grid5-2 img {
+    width: 250px;
+    border-radius: 20px;
+}
+.grid5-2 img:hover {
+    box-shadow: 0 5px 25px rgb(1 1 1 / 30%);
+}
+.grid5-2 p:nth-child(3) {
+    font-size: 1em;
+    color: #db1313;
+}
+.grid5-2 a {
+    font-size: 0.7em;
+    color: rgba(34, 34, 34, 0.5);
+}
+.bayang:hover,
+.bayang2:hover {
+    box-shadow: 0 5px 15px rgb(1 1 1 / 30%);
+    cursor: pointer;
+}
+.bayang:hover {
+    border-radius: 20px;
+}
+.bayang2:hover {
+    border-radius: 10px;
+}
+.GRID6 {
+    grid-area: pengelola;
+    padding-top: 2em;
+    background-color: #3A3845;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.1fr 0.1fr;
+    grid-template-areas:
+        "staff"
+        "squad";
+    gap: 0.3em 0;
+}
+
+.GRID6 a {
+    font-size: 0.8em;
+    color: rgba(34, 34, 34, 0.5);
+    text-decoration: none;
+}
+
+.grid6-1 {
+    display: inline-grid;
+    grid-area: staff;
+    text-align: center;
+    margin-bottom: -75px;
+}
+
+.grid6-1 a {
+    font-size: clamp(1.5em, 4vw, 2em);
+    color: #F7CCAC;
+    font-family: 'Kalam';
+}
+
+.grid6-2 {
+    grid-area: squad;
+    padding-top: 2em;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 0.3em 0.8em;
+    text-align: center;
+}
+
+.grid6-2 a {
+    font-size: 0.7em;
+    color: rgba(34, 34, 34, 1);
+}
+
+.grid6-2 a:nth-child(2) {
+    font-size: 2em;
+}
+
+.grid6-3 {
+    grid-area: apotek;
+    padding: 2em 0;
+    display: grid;
+    justify-content: space-evenly;
+    text-align: center;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 0.35fr));
+    padding: auto;
+    align-items: center;
+}
+
+.grid6-3 a {
+    font-size: 1.5em;
+    color: rgba(34, 34, 34, 1);
+}
+
+.GRID7 {
+    grid-area: hubungi;
+    padding-top: 2em;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.1fr 1fr;
+    grid-template-areas:
+        "ripiw"
+        "reviewer";
+    gap: 0.3em 0;
+}
+
+.GRID7 a {
+    font-size: 0.8em;
+    color: rgba(34, 34, 34, 0.5);
+    text-decoration: none;
+}
+
+.grid7-1 {
+    display: inline-grid;
+    grid-area: ripiw;
+    text-align: center;
+}
+
+.grid7-1 a {
+    font-size: 1.6em;
+    color: #222;
+}
+
+.grid7-1 a:nth-child(2) {
+    font-size: 1em;
+}
+
+.grid7-2 {
+    grid-area: reviewer;
+    padding-top: 2em;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 0.35fr));
+    gap: 0.3em 0;
+    text-align: center;
+}
+
+.grid7-2 a {
+    font-size: 0.7em;
+    color: rgba(34, 34, 34, 1);
+}
+
+.grid7-2 a:nth-child(2) {
+    font-size: 2em;
+}
+
+.kartu2 {
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    max-width: 400px;
+    height: auto;
+    overflow: hidden;
+    margin: auto;
+    color: rgb(127, 255, 212);
+}
+
+.kartu2 p {
+    text-align: left;
+    padding: 0 20px;
+    font-size: 0.7em;
+    color: rgb(255, 255, 255);
+}
+
+.kartu2 a {
+    display: flex;
+    justify-content: center;
+    font-size: 1.2em;
+}
+
+.kartu2 a:last-child {
+    font-size: 0.8em;
+}
+
+.GRID8 {
+    grid-area: footer;
+    padding-top: 2em;
+    background-color: #3A3845;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 0.1fr;
+    grid-template-areas:
+        "peta"
+        "kaki";
+}
+
+.GRID8 a {
+    font-size: 0.5em;
+    color: rgba(34, 34, 34, 0.5);
+    text-decoration: none;
+}
+
+.grid8-1 {
+    grid-area: peta;
+    padding: 2em 0;
+    display: grid;
+    background: #F7CCAC;
+    justify-content: center;
+    grid-template-columns: repeat(auto-fit, minmax(410px, 0.35fr));
+    gap: 0.3em 0;
+    text-align: center;
+}
+
+.grid8-1 a {
+    font-size: 0.7em;
+    color: rgba(34, 34, 34, 1);
+}
+
+.grid8-1 a:nth-child(2) {
+    font-size: 0.8em;
+}
+
+.grid8-2 {
+    grid-area: kaki;
+    display: grid;
+    text-align: left;
+    background-color: #3A3845;
+    padding: 20px;
+}
+
+.grid8-2 a {
+    font-size: 1em;
+    color: #F7CCAC;
+}
+.lul {
+    text-align: justify;
+}
+
+.kartu3,
+.kartu4 {
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    max-width: 400px;
+    height: auto;
+    overflow: hidden;
+}
+.kartu3 {
+    margin: auto;
+    text-align: left;
+}
+.kartu4 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+}
+.kartu4 img {
+    vertical-align: top;
+    max-width: 100%;
+    height: auto;
+}
+.kartu3 p,
+.kartu4 p {
+    text-align: center;
+    padding: 0 20px;
+    font-size: 0.7em;
+    color: rgb(0, 0, 0);
+}
+.kartu3 p {
+    text-align: center;
+}
+.kartu4 p {
+    text-align: left;
+}
+
+.kartu3 p {
+    text-align: center;
+    padding: 0 20px;
+    font-size: 0.7em;
+    color: rgb(0, 0, 0);
+}
+
+.kartu3 a {
+    display: flex;
+    font-size: 0.8em;
+}
+
+.kartu3 a:nth-child(1n+2) {
+    display: inline;
+}
+
+.kartu3 i {
+    font-size: 1.5em;
+    letter-spacing: 15px;
+}
+
+.kartu,
+.kartu5 {
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+    margin: auto;
+    display: inline-grid;
+}
+.kartu {
+    max-width: 325px;
+    height: auto;
+}
+.kartu5 {
+    width: 450px;
+    height: 500px;
+}
+
+.kartu a,
+.kartu5 a {
+    font-size: clamp(0.9em, 3vw, 1em);
+    color: #F7CCAC;
+    margin-top: 10px;
+}
+.kartu a:nth-child(2) {
+    font-size: clamp(1em, 2vw, 2em);
+}
+
+.kartu p,
+.kartu5 p {
+    text-align: left;
+    padding: 0 20px;
+    font-size: 0.7em;
+    color: rgb(255, 255, 255);
+}
+.mpv,
+.suv,
+.matic110,
+.matic150 {
+    background-size: cover;
+    background-position: center;
+    padding: 1px 0;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.mpv {
+    background-image: url(https://blogger.googleusercontent.com/img/a/AVvXsEjaUxSHVSXZJtbN-fDenwG2U_mRSgODdTPKEsS0MejM5qpBrbSsQ1dUh7wGSXtUSxw0k2O0YLLA0Jx2V5tXktmeQ4DwjvUAHj46EVqzGC7uT-MkA2Gi32TylYlT7Bk_ZTQSDLG26ovMCDK6cTmUBNWDJ4I-hnNh3nHY6e5SL9mIa3LY2nE5LcTPKqXOlw);
+}
+
+.suv {
+    background-image: url(https://blogger.googleusercontent.com/img/a/AVvXsEisuG8hAMXU6YQ2dBLiPTCdheHOO8WosmpYTCiDrgUaYMjj2Sn5gVUWmcUp83rO4Ax_cYyCp8pzJmOoKW5PDN5-94snsl3JWXH_o3VTqMZzK-Fr9vnNX8hsDxl1YfqK-nWXR9VRATVeL7c67P_yuXipHuYSr5hDffjTsiNgMlFhFn18hZscWhgU277Y8Q);
+}
+
+.matic110 {
+    background-image: url(https://blogger.googleusercontent.com/img/a/AVvXsEhGFTW8IXVV0kNCNEmkIbSflGPTTln5v4ZykWxKFWgL9pSTQnSPW_x96ibnRk3MP7MFaWinCs_Ag3K87V8S9V3OCj40BeLaqZMluIYXIPcrQlgFcw7ls90oSRb13i5wjavubnxtn08XhO55U9ch9qqn4TOFUHEH0rZk1cIaRyfCRdvF6lkgTX38z9ji_g);
+}
+.matic150 {
+    background-image: url(https://blogger.googleusercontent.com/img/a/AVvXsEgw1zqOYGh_3t3DFGb8uD9knVC6x6GTtpA1iQF1U46NNUtJxWAEP1Iclh0jXNZH_64w7mWZxoHsqXhIASjbS7ScGfv2MwBdVxrlty3vGP3qmY-OUHnIq-2rFmXvnbc4DBbuaD5n-LVGMM98qJxS81nWaGep9imnFUnXWlEmMSIMhxF2iOZzJCXK4vkkFw);
+}
+
+.mpv:hover p,
+.suv:hover p,
+.matic110:hover p,
+.matic150:hover p {
+    backdrop-filter: blur(10px);
+}
+
+.puguh,
+.cvmot,
+.rmi,
+.rci,
+.asperda {
+    background-size: cover;
+    background-position: center;
+    padding: 1px 0;
+    cursor: pointer;
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    margin: auto;
+}
+.asperda {
+    border-radius: 0;
+}
+
+.puguh {
+    background-image: url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjz9iZ0k16Yzyi6-gJUzhvva8oqT_W3kIEsF08Nx6VaXtjWBeXwynzoX1My-PZ5wZATcRZdMoo5BqxGVCkpG55GvpQxLUQAoqzwP1jde5HDgZJ_5FdZrYtTX2QsWcEbT1cmoc6mwZ06QmU6ZzGKj_h2XZpm3f18HnM7ikEoFuYH2z2z1RNsXBW6aGDnxA/s640/puguh.png);
+}
+.cvmot {
+    background-image: url(https://blogger.googleusercontent.com/img/a/AVvXsEhv_QLMhPyP57zcfs6qG96ZqTiUV3y2xpW8IV6ghu3GG5tL89HmaWGlhsx6rjeBXALaCALhHILog8t4Hwj7ma_XHRYJ4WLn7hH_m43zT0s6YzV-i7Pkb5ltFg4cn4xTLKBi_eaV0AkgP--zp-0uooLV6a_ZdF-FFERQOQahczuMK9U9wonX26a25RbDZQ);
+}
+.rmi {
+    background-image: url(https://blogger.googleusercontent.com/img/a/AVvXsEiNEtwJNsHCVweuyqjH1JyZJ-PxIbuoYt_AyzfwhwdtQC1aGNpzIkGVbN6A9P2fX79yMgH-r0BTExyN1Re9RKlVnfH8A_9uiFWTvDUxfjzOpRhf4HZ1-zCycBxQxFK2oEquWrPbn4D3-zzUQ9KSdm5SYAUa6W_W6EzSdsc3MZ327q17ysqwZA-25_kPGw);
+}
+.rci {
+    background-image: url(https://blogger.googleusercontent.com/img/a/AVvXsEhiqopeo66axtmXLgeYnTB1dqZQ4p8O8o4yY1GA06pmJJDiyebQJ1iZcUd3hDJIK2iSpMIdd-DZGmj4Dwnt2e2sBsJtDGeX2EK2JHjxRNMaefeiUJCUHGHedv9rYMQ1Qss22sHft4eXobtdkDz4lOQZPuQVbbzi8l394TZphSFoksfW9QegLAU_SuBbrg);
+}
+.asperda {
+    background-image: url(https://blogger.googleusercontent.com/img/a/AVvXsEgIvlexI1748MB4IqA5fH0wdRk73rm8bMThAMazmVDo3vlBLYBwgMtgWanHH3Y50YtgajSs51ISNa80Wov6f4MoIeTVwDVTKmVjmYYIpi4d0Tg62DnOSgrqy6eTc0271hMxiwRCWh8uFWZIr7yKc1p_1KCOkjlvJFAcuzQ-c1wGbMBr55q9XCndYMUHHQ);
+}
+
+.ganjar,
+.mastamvan {
+    background-size: cover;
+    background-position: center;
+    padding: 1px 0;
+    cursor: pointer;
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    margin: auto;
+}
+
+.ganjar {
+    background-image: url(images/pakganjar.png);
+}
+
+.mastamvan {
+    background-image: url(images/tamvan.png);
+}
+
+.apotek {
+    display: block;
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+    font-size: 1.25rem;
+    border-style: solid;
+    border-color: #222;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+
+.apotek:hover {
+    background: #db1313;
+    color: rgb(255, 255, 255);
+}
+
+.mapouter {
+    position: relative;
+    text-align: left;
+    padding: 1px 0;
+    cursor: pointer;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.gmap_canvas iframe {
+    overflow: hidden;
+    width: 400px;
+    height: 300px;
+}
+
+.cari {
+    margin: auto;
+    font-weight: 500;
+    font-size: 1.25rem;
+    border-style: solid;
+    border-radius: 12px;
+    padding: 12px 50px;
+    text-decoration: none;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+.cari:hover {
+    border-color: #222;
+}
+.klik {
+    background-color: rgb(255, 255, 255);
+    margin: auto;
+    font-weight: 500;
+    font-size: 1.25rem;
+    border-radius: 50%;
+    padding: 12px 16px;
+}
+.klik:hover {
+    cursor: pointer;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+.img-slider {
+    position: relative;
+    overflow: hidden;
+    box-sizing: border-box;
+    width: 1200px;
+    height: 725px;
+    margin: 10px;
+}
+
+.img-slider .slide {
+    z-index: 1;
+    position: absolute;
+    width: 100%;
+    clip-path: circle(0% at 0 50%);
+}
+
+.img-slider .slide.active {
+    clip-path: circle(150% at 0 50%);
+    transition: 2s;
+    transition-property: clip-path;
+}
+
+.img-slider .slide img {
+    z-index: 1;
+    width: 100%;
+    border-radius: 25px;
+}
+
+.img-slider .slide .info {
+    position: absolute;
+    top: 0;
+    padding: 15px 30px;
+}
+
+.img-slider .slide .info h2 {
+    font-family: 'Kalam';
+    color: #F7CCAC;
+    font-size: clamp(1em, 5vw, 4.5em);
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 2px;
+    text-shadow: 6px 2px 5px #000000;
+}
+
+.img-slider .slide .info p {
+    color: #F7CCAC;
+    background-color: rgba(0, 0, 0, 0.6);
+    font-size: clamp(0.72em, 2vw, 2em);
+    width: 60%;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.img-slider .navigation {
+    z-index: 2;
+    position: absolute;
+    display: flex;
+    bottom: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.img-slider .navigation .btn {
+    background-color: rgba(255, 255, 255, 0);
+    border: 1px solid #F7CCAC;
+    width: 36px;
+    height: 36px;
+    margin: 10px;
+    margin-bottom: 50%;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.img-slider .navigation .btn.active{
+    background-color: #826F66;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
+}
+
+
+/* h3 .post-title .entry-title a{
+    text-decoration: none;
+    color: white;
+} */
+/* .main-content {
+    border-radius: 20px;
+} */
+.date-header {
+    display: none;
+}
+.main, .section {
+    background-color: rgb(255, 255, 255);
+    padding-top: 100px;
+    border-radius: 20px;
+}
+.post {
+    background-color: rgb(255, 255, 255);
+    padding: 0 100px;
+}
+html .post-body, html .post-header, html .post-footer, html .description {
+    text-decoration: none;
+    color: black;
+}
+html .post-body {
+    margin-bottom: 20px;
+}
+.mobile-index-title, .entry-title {
+    color: black;
+}
+.mobile-index-arrow {
+    display: none;
+}
+.entry-title a{
+    text-decoration: none;
+    color: black;
+}
+.published {
+    text-decoration: none;
+}
+.blog-pager {
+    /* background-color: black;
+    height: 100px; */
+}
+.blog-pager-older-link,
+.blog-pager-newer-link,
+.home-link {
+    display: block;
+    background-color: #F7CCAC;
+    color: #3A3845;
+    text-decoration: none;
+    font-size: clamp(0.8em, 2vw, 1.5em);
+    border-radius: 10px;
+    padding: 12px 16px;
+}
+.comment-link {
+    text-decoration: none;
+}
+.feed-links {
+    display: none;
+}
+.no-items {
+    display: none;
+}
+.blog-posts, .hfeed {
+    padding: 0 20px;
+}
+
+@media (max-width: 900px) {
+    .main, .section {
+        padding-top: 50px;
+    }
+    .post {
+        padding: 0 50px;
+    }
+}
+@media (max-width: 500px) {
+    .main, .section {
+        padding-top: 25px;
+    }
+}
+
+
+
+
+@media screen and (max-width: 980px){
+    .menu-toggle {
+        display: flex;
+    }
+    nav ul {
+        position: absolute;
+        right: 0;
+        top: 0;
+        width: 50%;
+        height: 100vh;
+        justify-content: space-evenly;
+        flex-direction: column;
+        align-items: center;
+        background-color: rgb(130, 111, 102);
+        z-index: -10;
+        transform: translateX(100%);
+        transition: all 1s;
+        opacity: 0;
+    }
+    nav ul li:nth-child(1n+4) {
+        display: block;
+    }
+
+    nav ul.slidir {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@media (max-width: 1366px) {
+    .img-slider {
+        width: 900px;
+        height: 543px;
+    }
+    .img-slider .navigation .btn {
+        width: 20px;
+        height: 20px;
+        margin: 10px;
+        margin-bottom: 30%;
+        border-radius: 50%;
+    }
+}
+
+@media (max-width: 1280px) {
+    .img-slider {
+        width: 800px;
+        height: 483px;
+    }
+}
+
+@media (max-width: 979px) {
+    .puguh,
+    .cvmot,
+    .rmi,
+    .rci,
+    .asperda {
+        height: 200px;
+        width: 200px;
+    }
+}
+
+@media (max-width: 450px) {
+    .puguh,
+    .cvmot,
+    .rmi,
+    .rci,
+    .asperda {
+        height: 150px;
+        width: 150px;
+    }
+}
+
+@media (max-width: 820px) {
+    .img-slider {
+        width: 600px;
+        height: 375px;
+    }
+
+    .img-slider .slide .info {
+        padding: 10px 25px;
+    }
+
+    .img-slider .navigation {
+        bottom: 25px;
+    }
+
+    .img-slider .navigation .btn {
+        width: 15px;
+        height: 15px;
+        margin: 8px;
+        margin-bottom: 40%;
+    }
+    .img-slider .slide .info p {
+        width: 80%;
+    }
+}
+
+@media (max-width: 768px){
+    .img-slider .navigation .btn {
+        margin-bottom: 30%;
+    }
+    .img-slider {
+        height: 365px;
+    }
+}
+
+@media (max-width: 700px) {
+    .img-slider {
+        height: 400px;
+    }
+
+    .img-slider .slide .info {
+        padding: 10px 20px;
+    }
+
+    .img-slider .navigation {
+        bottom: 15px;
+    }
+
+    .img-slider .navigation .btn {
+        width: 8px;
+        height: 8px;
+        margin: 6px;
+        margin-bottom: 50%;
+    }
+
+    .img-slider {
+        height: 360px;
+    }
+}
+
+@media (max-width: 670px) {
+    .img-slider .navigation .btn {
+        width: 8px;
+        height: 8px;
+        margin: 6px;
+        margin-bottom: 45%;
+    }
+    .img-slider {
+        height: 360px;
+    }
+    .kartu5 {
+        width: 360px;
+        height: 400px;
+    }
+}
+@media (max-width: 659px) {
+    .grid6-2 {
+        gap: 2em 0;
+    }
+}
+@media (max-width: 640px) {
+    .img-slider .navigation .btn {
+        margin-bottom: 60%;
+    }
+    .img-slider {
+        height: 350px;
+    }
+}
+
+@media (max-width: 600px) {
+    .img-slider .navigation .btn {
+        margin-bottom: 60%;
+    }
+    .img-slider {
+        height: 335px;
+    }
+}
+
+@media (max-width: 580px) {
+    .img-slider .navigation .btn {
+        margin-bottom: 70%;
+    }
+    .img-slider {
+        height: 315px;
+    }
+}
+
+@media (max-width: 540px) {
+    .img-slider .navigation .btn {
+        margin-bottom: 80%;
+    }
+    .img-slider {
+        height: 300px;
+    }
+    .grid3-2 {
+        padding: 0;
+        margin: 0;
+    }
+}
+
+@media (max-width: 520px) {
+    .img-slider .navigation .btn {
+        margin-bottom: 80%;
+    }
+    .img-slider {
+        height: 290px;
+    }
+}
+
+@media (max-width: 500px) {
+    .img-slider .navigation .btn {
+        margin-bottom: 60%;
+    }
+    .img-slider {
+        height: 265px;
+    }
+    .img-slider .slide .info h2 {
+        text-shadow: 2px 2px 5px #000000;
+    }
+}
+
+@media (max-width: 460px) {
+    .img-slider .navigation .btn {
+        margin-bottom: 45%;
+    }
+    .img-slider .slide .info p {
+        width: 100%;
+        padding: 5px;
+    }
+    .img-slider {
+        height: 250px;
+    }
+}
+
+@media (max-width: 440px) {
+    .img-slider .navigation .btn {
+        margin-bottom: 60%;
+    }
+    .img-slider {
+        height: 245px;
+    }
+    .kartu5 {
+        width: 324px;
+        height: 360px;
+    }
+    .grid5-2 {
+        margin-bottom: 50px;
+    }
+    .mrg {
+        margin-bottom: 15px;
+    }
+}
+
+@media (max-width: 420px) {
+    .img-slider {
+        width: 380px;
+        height: 230px;
+    }
+
+    .img-slider .slide .info {
+        padding: 5px 10px;
+    }
+
+    .img-slider .slide .info p {
+        width: 100%;
+    }
+
+    .img-slider .navigation .btn{
+        margin-bottom: 50%;
+    }
+
+    .img-slider .navigation {
+        bottom: 10px;
+    }
+}
+
+@media (max-width: 411px) {
+    .grid8-1 {
+        grid-template-columns: repeat(auto-fit, minmax(350px, 0.35fr));
+    }
+    .gmap_canvas iframe {
+        overflow: hidden;
+        width: 340px;
+        height: 300px;
+    }
+}
+
+@media (max-width: 320px) {
+    .grid8-1 {
+        grid-template-columns: repeat(auto-fit, minmax(280px, 0.35fr));
+    }
+    .gmap_canvas iframe {
+        overflow: hidden;
+        width: 260px;
+        height: 260px;
+    }
+}
+
+@media (max-width: 385px) {
+    .img-slider .navigation .btn {
+        margin-bottom: 60%;
+    }
+    .img-slider {
+        height: 225px;
+    }
+}
+@media all and (max-width: 1020px) {
+    .tombol {
+        font-size: 1rem;
+    }
+
+    .grid1-2 h3 {
+        font-size: 1em;
+    }
+}
+
+@media all and (max-width: 669px) {
+    .grid1-1 h2 {
+        font-size: 1em;
+    }
+
+    .grid1-2 h3 {
+        font-size: 0.8em;
+    }
+}
+
+@media all and (max-width: 805px) {
+    .grid3-2 {
+        display: flex;
+        box-sizing: border-box;
+        flex-direction: column;
+        gap: 1em;
+    }
+
+    .grid2-2 a {
+        font-size: 1.5em;
+    }
+}
+
+@media all and (max-width: 420px) {
+    .GRID1 {
+        position: relative;
+        grid-template-columns: 1fr 1fr 1fr 2.5fr;
+        grid-template-rows: 1fr 1fr;
+        grid-template-areas:
+            "harold harold harold darurat"
+            "telp telp telp telp"
+    }
+
+    .grid1-1 {
+        grid-area: harold;
+        color: rgb(0, 0, 0);
+        text-align: right;
+    }
+
+    .grid1-2 {
+        grid-area: telp;
+        text-align: center;
+    }
+
+    .grid1-3 {
+        grid-template-columns: 80%;
+        justify-content: start;
+    }
+
+    .GIRD2 {
+        margin-top: 0px;
+    }
+
+    .grid2-2 a {
+        font-size: 1em;
+    }
+
+    .grid3-2 a {
+        font-size: 1em;
+    }
+
+    .kartu3 {
+        text-align: center;
+    }
+
+    .grid8-2 {
+        text-align: center;
+    }
+
+    .popup {
+        width: 70%;
+        max-width: 380px;
+        padding: 10px 15px;
+    }
+
+    .form {
+        row-gap: 10px;
+    }
+}
+    ]]>
+    </b:skin>
+</head>
+<body>
+
+<b:if cond='data:blog.pageType == "item"'>
+    <header>
+        <nav>
+            <div class="GRID1">
+                <div class="grid1-1">
+                    <p>Rental Mobil Motor Timika</p>
+                </div>
+                <ul>
+                    <li><a href="https://rentmobiltimika.blogspot.com/">Beranda</a></li>
+                    <li><a href="https://www.google.com/maps/place/Rental+Motor/@-4.5672566,136.8722073,17z/data=!3m1!4b1!4m5!3m4!1s0x682379da1724a9f5:0xd43a5133500a7bb7!8m2!3d-4.567262!4d136.874396"
+                        target="_blank">TEMUKAN KAMI</a></li>
+                    <li><a href="https://www.instagram.com/puguhrentcar_timika/" target="_blank">puguhrentcar_timika</a></li>
+                    <li><a href="#kontak">KONTAK</a></li>
+                </ul>
+                <div class="menu-toggle">
+                    <input type="checkbox"/>
+                    <span></span><span></span><span></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+            <div class="grid-item24">
+                <div class="img-slider">
+                    <div class="slide active">
+                        <img src="https://blogger.googleusercontent.com/img/a/AVvXsEjy_CclJ_IP0B6RAcM6cQSWlVm0z0D0S27vRlRB58vaQO9IayUmly6oDkO57ROZQzpXx9NAWPniuMgxMauCMaIW3Y77qhsW4lchGHXXmODmWGUtf_TuUuX5lGIpjVgJnS1WIuiQhUz4hTg59EmKRI08gdb7LhA-0oFRn6mNw8WBFBi4NyroXpDyl5xS-A" alt=""/>
+                        <div class="info">
+                            <h2>Jasa Sewa Mobil</h2>
+                            <p>Rental mobil motor murah timika, melayani lepas kunci dan Melayani sepenuh hati!</p>
+                            <p>Harga Mobil 500K/ hari dan Motor 100K/ hari. Langsung hub:WA 08114900117</p>
+                            <p>email: setiawanku1@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <img src="https://blogger.googleusercontent.com/img/a/AVvXsEisuG8hAMXU6YQ2dBLiPTCdheHOO8WosmpYTCiDrgUaYMjj2Sn5gVUWmcUp83rO4Ax_cYyCp8pzJmOoKW5PDN5-94snsl3JWXH_o3VTqMZzK-Fr9vnNX8hsDxl1YfqK-nWXR9VRATVeL7c67P_yuXipHuYSr5hDffjTsiNgMlFhFn18hZscWhgU277Y8Q" alt=""/>
+                        <div class="info">
+                            <h2>Alamat</h2>
+                            <p>rumah Depan Gereja Betel,</p>
+                            <p>Jl. Hasanuddin Gang Arena Lama, Kamoro Jaya,</p>
+                            <p>Kec. Mimika Baru, Kabupaten Mimika, Papua 99930</p>
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <img src="https://blogger.googleusercontent.com/img/a/AVvXsEjaUxSHVSXZJtbN-fDenwG2U_mRSgODdTPKEsS0MejM5qpBrbSsQ1dUh7wGSXtUSxw0k2O0YLLA0Jx2V5tXktmeQ4DwjvUAHj46EVqzGC7uT-MkA2Gi32TylYlT7Bk_ZTQSDLG26ovMCDK6cTmUBNWDJ4I-hnNh3nHY6e5SL9mIa3LY2nE5LcTPKqXOlw" alt=""/>
+                        <div class="info">
+                            <h2>Jasa Sewa Mobil</h2>
+                            <p>Rental mobil motor murah timika, melayani lepas kunci dan Melayani sepenuh hati!</p>
+                            <p>Harga Mobil 500K/ hari dan motor 100K/ hari. Langsung hub:WA 08114900117</p>
+                            <p>email: setiawanku1@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="navigation">
+                        <div class="btn active"></div>
+                        <div class="btn"></div>
+                        <div class="btn"></div>
+                    </div>
+                </div>
+            </div>
+</b:if>
+
+<b:if cond='data:blog.url == data:blog.homepageUrl'>
+    <header>
+        <nav>
+            <div class="GRID1">
+                <div class="grid1-1">
+                    <p>Rental Mobil Motor Timika</p>
+                </div>
+                <ul>
+                    <li><a href="#mobil">TIPE ARMADA</a></li>
+                    <li><a href="https://www.google.com/maps/place/Rental+Motor/@-4.5672566,136.8722073,17z/data=!3m1!4b1!4m5!3m4!1s0x682379da1724a9f5:0xd43a5133500a7bb7!8m2!3d-4.567262!4d136.874396"
+                        target="_blank">TEMUKAN KAMI</a></li>
+                    <li><a href="https://www.instagram.com/puguhrentcar_timika/" target="_blank">puguhrentcar_timika</a></li>
+                    <li><a href="#mobil">Kategori Mobil</a></li>
+                    <li><a href="#motor">Kategori Motor</a></li>
+                    <li><a href="#direktur">Perusahaan Kami</a></li>
+                    <li><a href="#kontak">KONTAK</a></li>
+                    <li><a href="#posting">Postingan</a></li>
+                </ul>
+                <div class="menu-toggle">
+                    <input type="checkbox"/>
+                    <span></span><span></span><span></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <content>
+            <div class="grid-item23">
+                <div class="img-slider">
+                    <div class="slide active">
+                        <img src="https://blogger.googleusercontent.com/img/a/AVvXsEjy_CclJ_IP0B6RAcM6cQSWlVm0z0D0S27vRlRB58vaQO9IayUmly6oDkO57ROZQzpXx9NAWPniuMgxMauCMaIW3Y77qhsW4lchGHXXmODmWGUtf_TuUuX5lGIpjVgJnS1WIuiQhUz4hTg59EmKRI08gdb7LhA-0oFRn6mNw8WBFBi4NyroXpDyl5xS-A" alt=""/>
+                        <div class="info">
+                            <h2>Jasa Sewa Mobil</h2>
+                            <p>Rental mobil motor murah timika, melayani lepas kunci dan Melayani sepenuh hati!</p>
+                            <p>Harga Mobil 500K/ hari dan Motor 100K/ hari. Langsung hub:WA 08114900117</p>
+                            <p>email: setiawanku1@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <img src="https://blogger.googleusercontent.com/img/a/AVvXsEisuG8hAMXU6YQ2dBLiPTCdheHOO8WosmpYTCiDrgUaYMjj2Sn5gVUWmcUp83rO4Ax_cYyCp8pzJmOoKW5PDN5-94snsl3JWXH_o3VTqMZzK-Fr9vnNX8hsDxl1YfqK-nWXR9VRATVeL7c67P_yuXipHuYSr5hDffjTsiNgMlFhFn18hZscWhgU277Y8Q" alt=""/>
+                        <div class="info">
+                            <h2>Alamat</h2>
+                            <p>rumah Depan Gereja Betel,</p>
+                            <p>Jl. Hasanuddin Gang Arena Lama, Kamoro Jaya,</p>
+                            <p>Kec. Mimika Baru, Kabupaten Mimika, Papua 99930</p>
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <img src="https://blogger.googleusercontent.com/img/a/AVvXsEjaUxSHVSXZJtbN-fDenwG2U_mRSgODdTPKEsS0MejM5qpBrbSsQ1dUh7wGSXtUSxw0k2O0YLLA0Jx2V5tXktmeQ4DwjvUAHj46EVqzGC7uT-MkA2Gi32TylYlT7Bk_ZTQSDLG26ovMCDK6cTmUBNWDJ4I-hnNh3nHY6e5SL9mIa3LY2nE5LcTPKqXOlw" alt=""/>
+                        <div class="info">
+                            <h2>Jasa Sewa Mobil</h2>
+                            <p>Rental mobil motor murah timika, melayani lepas kunci dan Melayani sepenuh hati!</p>
+                            <p>Harga Mobil 500K/ hari dan motor 100K/ hari. Langsung hub:WA 08114900117</p>
+                            <p>email: setiawanku1@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="navigation">
+                        <div class="btn active"></div>
+                        <div class="btn"></div>
+                        <div class="btn"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="grid-item23 GRID3">
+                <div class="grid3-2">
+                    <a class="rltn" href="#mobil">Kategori Mobil</a>
+                    <a class="rltn" href="#motor">Kategori Motor</a>
+                    <a class="rltn" href="#puguhs">Perusahaan Kami</a>
+                    <a class="rltn" href="#alatelp">Kontak</a>
+                </div>
+                <div class="grid3-1">
+                    <a>Rental Mobil Motor Timika</a>
+                    <a id="mobil">Siap Melayani Anda Dengan Sepenuh Hati</a>
+                </div>
+            </div>
+        </content>
+
+        <div class="grid-item GRID5">
+            <div class="grid5-1">
+                <a>Ketersediaan Kategori Mobil</a>
+            </div>
+            <div class="grid5-2">
+                <!-- <div class="kartu5">
+                    <div class="sedan">
+                    </div>
+                    <a>Sedan</a>
+                </div> -->
+                <div class="kartu5 mrg">
+                    <div class="mpv" id="motor">
+                    </div>
+                    <a>MPV</a>
+                </div>
+                <div class="kartu5">
+                    <div class="suv">
+                    </div>
+                    <a id="motor">SUV</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="grid-item GRID5">
+            <div class="grid5-1">
+                <a>Ketersediaan Kategori Motor</a>
+            </div>
+            <div class="grid5-2">
+                <div class="kartu5">
+                    <div class="matic110">
+                    </div>
+                    <a id="direktur">Matic 110cc</a>
+                </div>
+                <div class="kartu5">
+                    <div class="matic150">
+                    </div>
+                    <a id="puguhs">Matic 150cc</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="grid-item GRID6">
+            <div class="grid6-1">
+                <a>Perusahaan Kami</a>
+            </div>
+            <div class="grid6-2">
+                <div class="kartu">
+                    <div class="puguh">
+                    </div>
+                    <a>PUGUH SETIAWAN</a>
+                    <a>Drektur CV Motorent Timika</a>
+                </div>
+                <div class="kartu">
+                    <div class="cvmot">
+                    </div>
+                    <a>CV Motorent Timika</a>
+                    <a>Commanditaire Vennootschap</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="grid-item GRID6">
+            <div class="grid6-1">
+                <a>Relasi Keanggotaan</a>
+            </div>
+            <div class="grid6-2">
+                <div class="kartu">
+                    <div class="rmi">
+                    </div>
+                    <a>Anggota</a>
+                    <a>Rental Motor Indonesia</a>
+                </div>
+                <div class="kartu">
+                    <div class="rci">
+                    </div>
+                    <a>Anggota</a>
+                    <a>Rent Car Indonesia</a>
+                </div>
+                <div class="kartu">
+                    <div class="asperda">
+                    </div>
+                    <a>Anggota</a>
+                    <a id="posting">ASPERDA</a>
+                </div>
+            </div>
+        </div>
+    </main>
+</b:if>
+
+    <div id="main-content">
+        <div class="container">
+            <b:section class='main' id='main' maxwidgets='1' showaddelement='yes'>
+            <b:widget id='Blog1' locked='true' title='This is main content area' type='Blog'/>
+            </b:section>
+            <aside class='sidebar-area'>
+                <b:section class='sidebar' id='sidebar' maxwidgets='' showaddelement='yes'>
+                
+                </b:section>
+            </aside>
+        </div>
+    </div>
+    <footer>
+        <div class="grid-item GRID8">
+            <div class="grid8-1">
+                <div class="kartu3" id="alatelp">
+                    <p>Bisa diklik, ctrl + scroll jika ingin zoom</p>
+                    <div class="mapouter">
+                        <div class="gmap_canvas">
+                            <iframe id="gmap_canvas" class="peta"
+                                src="https://maps.google.com/maps?q=rumah%20Depan%20Gereja%20Betel,%20Jl.%20Hasanuddin%20Gang%20Arena%20Lama,%20Kamoro%20Jaya&amp;t=&amp;z=13&amp;ie=UTF8&amp;iwloc=&amp;output=embed"
+                                frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+                        </div>
+                    </div>
+                </div>
+                <div class="kartu3">
+                    <a id="kontak">rumah Depan Gereja Betel, Jl. Hasanuddin Gang Arena Lama, Kamoro Jaya, Kec. Mimika Baru,
+                        Kabupaten Mimika, Papua 99930, Kontak: 08114900117</a>
+                    <a href="https://www.instagram.com/puguhrentcar_timika/" target="_blank">
+                    <i class="fa fa-instagram"></i></a>
+                    <a href="https://www.tiktok.com/@puguhrentcartimik?lang=id-ID&amp;is_copy_url=1&amp;is_from_webapp=v1" target="_blank">
+                    <i class="fab fa-tiktok"></i></a>
+                    <a href="mailto:setiawanku1@gmail.com" target="_blank">
+                    <i class="fa fa-envelope"></i></a>
+                    <a href="https://wa.me/628114900117" target="_blank">
+                    <i class="fa fa-whatsapp"></i></a>
+                </div>
+            </div>
+            <div class="grid8-2">
+                <label><a>&#169; RentalMobilMotorTimika</a></label>
+            </div>
+        </div>
+    </footer>
+
+
+    <script type="text/javascript">
+        const menuToggle = document.querySelector('.menu-toggle input');
+        const nav = document.querySelector('nav ul');
+
+        menuToggle.addEventListener('click', function() {
+            nav.classList.toggle('slidir');
+        });
+    </script>
+    <script type="text/javascript">
+        var slides = document.querySelectorAll('.slide');
+        var btns = document.querySelectorAll('.btn');
+        let currentSlide = 1;
+
+        // Javascript for image slider manual navigation
+        var manualNav = function (manual) {
+            slides.forEach((slide) => {
+                slide.classList.remove('active');
+
+                btns.forEach((btn) => {
+                    btn.classList.remove('active');
+                })
+            })
+            slides[manual].classList.add('active');
+            btns[manual].classList.add('active');
+        }
+
+        btns.forEach((btn, i) => {
+            btn.addEventListener("click", () => {
+                manualNav(i);
+                currentSlide = i;
+            });
+        });
+
+        // Javascript for image slider autoplay navigation
+        var repeat = function (activeClass) {
+            let active = document.getElementsByClassName('active');
+            let i = 1;
+
+            var repeater = () => {
+                setTimeout(function () {
+                    [...active].forEach((activeSlide) => {
+                        activeSlide.classList.remove('active');
+                    });
+
+                    slides[i].classList.add('active');
+                    btns[i].classList.add('active');
+                    i++;
+
+                    if (slides.length == i) {
+                        i = 0;
+                    }
+                    if (i >= slides.length) {
+                        return;
+                    }
+                    repeater();
+                }, 7000);
+            }
+            repeater();
+        }
+        repeat();
+    </script>
+</body>
+
+</html>
